@@ -1,0 +1,98 @@
+name: myproject
+description: eShop project From Yasser 779573071
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+
+version: 1.0.0+4
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # http: ^0.13.4
+  # path_provider: ^2.0.11 # path_provider: ^2.0.11
+  # syncfusion_flutter_charts: ^19.4.43
+  form_field_validator: ^1.1.0
+  dropdown_search: ^5.0.3
+  flutter_svg: ^2.0.2
+  image_picker: ^0.8.4+11
+  firebase_core: ^2.5.0
+  firebase_messaging: ^14.2.2
+  cloud_firestore: ^4.3.2
+  firebase_auth: ^4.2.6
+  firebase_storage: ^11.0.11
+  google_sign_in: ^6.0.2
+  fluttertoast: ^8.0.9
+  # cron: ^0.5.0
+  carousel_slider: ^4.2.1
+  flutter_local_notifications: ^13.0.0 # ^9.8.0+1
+  rxdart: ^0.27.7
+  flutter_native_timezone: ^2.0.0
+  url_launcher: ^6.1.2
+  share_plus: ^6.3.1
+  photo_view: ^0.14.0
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.2.0
+  cached_network_image: ^3.2.3 # no Support web
+  avatar_glow: ^2.0.2
+  flutter_staggered_animations: ^1.1.1
+  sign_in_with_apple: ^4.3.0
+  crypto: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Arabic app dir => rtl
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: true # "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  # windows:
+  #   generate: true
+  #   image_path: "assets/images/logo.png"
+  #   icon_size: 48 # min:48, max:256, default: 48
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Almarai-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Almarai-Light.ttf
+          weight: 300
+          style: italic
